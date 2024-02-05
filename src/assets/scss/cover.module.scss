@@ -1,0 +1,14 @@
+.cover {
+  &_div {
+    position: relative;
+    z-index: 1;
+  }
+  &_img {
+    width: -webkit-fill-available;
+    &_sec {
+        position: absolute;
+        z-index: 2;
+        bottom: -104px
+    }
+  }
+}
