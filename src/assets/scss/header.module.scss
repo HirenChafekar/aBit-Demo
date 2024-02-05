@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #e1e2e4;
+
+  &_main_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+  }
+
+  &_sec_div {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    > * {
+      cursor: pointer;
+    }
+    button {
+      border-radius: 60px;
+      border: 2px solid #764cc2;
+      padding: 18px 22px;
+      margin-right: 22px;
+      font-weight: 700;
+      line-height: 14.09px;
+      font-size: 16px;
+      font-family: "Raleway", sans-serif;
+      color: #764cc2;
+    }
+  }
+}
